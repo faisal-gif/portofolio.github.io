@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body {
+      margin: 2em auto;
+      max-width: 900px;
+      color: #37352F;
+      line-height: 1.5;
+      font-family: sans-serif;
+    }
+
+    .card-img-top {
+      border-radius: 2;
+      border: none;
+    }
+
+    .card-body {
+      font-size: 0.875rem;
+    }
+
+    .card-title {
+      font-size: 1rem;
+    }
+
+    .card-text {
+      font-size: 0.75rem;
+    }
+
+
+    h1,
+    h2,
+    h3 {
+      font-weight: 600;
+      margin-bottom: 0;
+    }
+
+    h1 {
+      font-size: 1.875rem;
+      margin-top: 1.875rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+      margin-top: 1.5rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      margin-top: 1.25rem;
+    }
+
+    p {
+      margin-top: 0.5em;
+      margin-bottom: 0.5em;
+    }
+
+    ol,
+    ul {
+      margin: 0;
+      margin-block-start: 0.6em;
+      margin-block-end: 0.6em;
+    }
+
+    li {
+      margin-block-start: 0.6em;
+    }
+
+    a,
+    a:visited {
+      color: inherit;
+      text-decoration: underline;
+    }
+
+    img {
+      max-width: 100%;
+    }
+
+    /* Optional: Untuk menghilangkan garis bawah pada link */
+    .card-link {
+      text-decoration: none;
+    }
+
+    /* Optional: Efek hover pada kartu proyek */
+    .card:hover {
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      transform: translateY(-5px);
+      transition: all 0.3s;
+    }
+
+    @media only print {
+      img {
+        max-height: 100vh;
+        object-fit: cover;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <article>
+    <header>
+      <h1>Selamat Datang Di Portfolio Saya</h1>
+    </header>
+    <div class="container mt-5">
+      <p>Dalam perjalanan saya sebagai Full Stack Web Developer, saya telah berhasil menggabungkan keahlian dalam
+        pengembangan front-end dan back-end untuk menciptakan solusi web yang inovatif dan responsif. Portofolio saya
+        mencerminkan dedikasi saya terhadap desain yang estetis dan fungsionalitas yang kuat, dengan proyek-proyek
+        seperti sistem manajemen konten yang dinamis, dan aplikasi web responsif.
+        Saya senang berkolaborasi dalam tim, beradaptasi dengan teknologi terkini, dan selalu mencari cara untuk
+        meningkatkan pengalaman pengguna melalui pengkodean yang efisien dan efektif. Jelajahi portofolio saya untuk
+        melihat bagaimana saya menghadirkan ide-ide kreatif menjadi kenyataan dalam dunia digital.
+      </p>
+      <h2 class="mb-3">Skills</h2>
+      <!-- Skill Category 1 -->
+      <div class="col-md-6 mb-4">
+        <h4>Frontend</h4>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-2">Html</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-2">Boostrap</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-2">JavaScript</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-2">CSS</button>
+      </div>
+      <!-- Skill Category 2 -->
+      <div class="col-md-6 mb-4">
+        <h4>Backend</h4>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">PHP</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">Java</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">Python</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">C++</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">C#</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">JavaScript</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">Myql</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">MongoDb</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">Laravel</button>
+        <button type="button" class="btn btn-outline-secondary btn-sm mb-3">Flutter</button>
+
+      </div>
+      <h2 class="mb-3">Projects</h2>
+      <div class="row">
+
+        <div class="col-md-4 mb-4">
+          <a href="https://stikes-kartrasa.ac.id/" class="card-link">
+            <div class="card">
+              <img src="ss-stikes.jpg" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Website Profile STIKES Karatsa</h5>
+                <p class="card-text"> website profile dari "STIKES Karya Putra Bangsa Tulungagung". Yang ditujukan untuk
+                  mempromosikan "STIKES Karya Putra Bangsa Tulungagung".</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="col-md-4 mb-4">
+          <a href="https://kianmulia.com/" class="card-link">
+            <div class="card">
+              <img src="ss-kianmulia.jpg" class="card-img-top" alt="Project 2">
+              <div class="card-body">
+                <h5 class="card-title">Website Profile Kianmulia</h5>
+                <p class="card-text">website profile dari "PT Kiansantang Utama". Yang ditujukan untuk mempromosikan "PT
+                  Kiansantang Utama Muliatama Tbk".</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/faisal-gif/website_dewiPelaga" class="card-link">
+            <div class="card">
+              <img src="ss-dewipelaga.jpg" class="card-img-top" alt="Project 3">
+              <div class="card-body">
+                <h5 class="card-title">Dewi Pelaga</h5>
+                <p class="card-text">Website Dewi Pelaga adalah platform untuk memopromosikan umkm yang ada di desa dewi
+                  pelaga. Dengan antarmuka pengguna yang ramah, pengguna dapat mempromosikan produk dari umkm mereka.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/faisal-gif/tracer_study_jti" class="card-link">
+            <div class="card">
+              <img src="ss-dewipelaga.jpg" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <h5 class="card-title">Tracer Study JTI Polinema</h5>
+                <p class="card-text">Tracer Study JTI adalah platform untuk melacak jejak karir dan perkembangan alumni
+                  setelah lulus dari "Politekinik Negeri Malang". yang memungkinkan pihak polinema dapat membuat form
+                  sesuai dengan kebutuhan dan dapat membagikan form yang sudah dibuat ke para alumni secara otomatis.
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/faisal-gif/sicalang" class="card-link">
+            <div class="card">
+              <img src="ss-sicalang.png" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <h5 class="card-title">SICALANG</h5>
+                <p class="card-text">Website SICALANG(SISTEM INFORMASI CANDI MALANG) merupakan media pembelajaran
+                  digital virtual tour berbasis aplikasi 3Sixty yang dilengkapi dengan materi situs candi di Malang</p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+        <div class="col-md-4 mb-4">
+          <a href="https://github.com/faisal-gif/peminjaman_fasilitas.git" class="card-link">
+            <div class="card">
+              <img src="ss-peminjaman.png" class="card-img-top" alt="Project 4">
+              <div class="card-body">
+                <h5 class="card-title">Website Peminjaman Fasilitas</h5>
+                <p class="card-text">Website Peminjaman Fasilitas adalah portal peminjaman fasilitas yang memudahkan
+                  Anda untuk mengakses dan memanfaatkan berbagai fasilitas dengan cepat dan efisien. </p>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+      </div>
+      <h2>Penghargaan dan Sertifikat</h2>
+      <ul>
+        <li><strong>Sertifikat BNSP Junior Mobile Programming:</strong> Sertifikasi sebagai pengembang Aplikasi dengan befokus pada bahas pemrograman java untuk Mobile Programming.</li>
+        <li><strong>Sertifikat Dasar Pemrograman JavaScript:</strong> Sertifikat setelah menyelesaikan Dasar pemrograman JavaScript oleh Dicoding</li>
+      </ul>
+    </div>
+  </article>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
